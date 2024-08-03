@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Questionnaire</h1>
+    </header>
+    <main>
+        <form id="questionnaire-form">
+            <section>
+                <h2>General Well-being</h2>
+                <div class="question">
+                    <label>I feel happy and content with my life.</label>
+                    <select name="q1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel hopeful about the future.</label>
+                    <select name="q1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel that my life has meaning and purpose.</label>
+                    <select name="q1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel satisfied with my personal achievements.</label>
+                    <select name="q1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have a positive outlook on life.</label>
+                    <select name="q2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h2>Emotional Health</h2>
+                <div class="question">
+                    <label>I feel overwhelmed by my emotions.</label>
+                    <select name="q3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I experience mood swings.</label>
+                    <select name="q4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel anxious or worried.</label>
+                    <select name="q5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel sad or depressed.</label>
+                    <select name="q6">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel easily irritated or angry.</label>
+                    <select name="q7">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h2>Sleep and Rest</h2>
+                <div class="question">
+                    <label>I have trouble falling asleep.</label>
+                    <select name="q8">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I wake up frequently during the night.</label>
+                    <select name="q9">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel rested when I wake up in the morning.</label>
+                    <select name="q10">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have trouble staying awake during the day.</label>
+                    <select name="q11">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I use medication or substances to help me sleep.</label>
+                    <select name="q12">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h2>Stress and Coping</h2>
+                <div class="question">
+                    <label>I feel stressed or overwhelmed by my daily responsibilities.</label>
+                    <select name="q13">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I find it difficult to relax.</label>
+                    <select name="q14">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I use healthy coping mechanisms to deal with stress.</label>
+                    <select name="q15">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel that I have a good balance between work and personal life.</label>
+                    <select name="q16">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel that I manage my time effectively.</label>
+                    <select name="q17">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h2>Social Connections</h2>
+                <div class="question">
+                    <label>I feel connected to others.</label>
+                    <select name="sc1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have supportive relationships with friends and family.</label>
+                    <select name="sc2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel lonely or isolated.</label>
+                    <select name="sc3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have someone to talk to when I am upset.</label>
+                    <select name="sc4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel comfortable in social situations.</label>
+                    <select name="sc5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Physical Health</h2>
+                <div class="question">
+                    <label>I experience physical symptoms related to stress (e.g., headaches, stomachaches).</label>
+                    <select name="ph1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I maintain a healthy diet.</label>
+                    <select name="ph2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I exercise regularly.</label>
+                    <select name="ph3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I avoid substances such as alcohol or drugs to cope with emotions.</label>
+                    <select name="ph4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I visit a healthcare professional regularly for check-ups.</label>
+                    <select name="ph5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Self-Esteem and Self-Worth</h2>
+                <div class="question">
+                    <label>I feel confident in myself.</label>
+                    <select name="se1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have a positive self-image.</label>
+                    <select name="se2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I am kind to myself when I make mistakes.</label>
+                    <select name="se3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel worthy of love and respect.</label>
+                    <select name="se4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I compare myself unfavorably to others.</label>
+                    <select name="se5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Work and Productivity</h2>
+                <div class="question">
+                    <label>I feel motivated to complete tasks.</label>
+                    <select name="wp1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel satisfied with my work or academic performance.</label>
+                    <select name="wp2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel capable of achieving my goals.</label>
+                    <select name="wp3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have trouble concentrating or staying focused.</label>
+                    <select name="wp4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I procrastinate on important tasks.</label>
+                    <select name="wp5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Daily Functioning</h2>
+                <div class="question">
+                    <label>I maintain a regular daily routine.</label>
+                    <select name="df1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I manage my personal hygiene effectively.</label>
+                    <select name="df2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I keep my living space clean and organized.</label>
+                    <select name="df3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I complete daily tasks without feeling overwhelmed.</label>
+                    <select name="df4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel able to handle unexpected changes in my routine.</label>
+                    <select name="df5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <section>
+                <h2>Seeking Help and Support</h2>
+                <div class="question">
+                    <label>I feel comfortable seeking professional help for my mental health.</label>
+                    <select name="sh1">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have access to mental health resources.</label>
+                    <select name="sh2">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel that mental health is a priority in my life.</label>
+                    <select name="sh3">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I have a plan for managing my mental health during difficult times.</label>
+                    <select name="sh4">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label>I feel supported by my community in addressing mental health concerns.</label>
+                    <select name="sh5">
+                        <option value="1">Never</option>
+                        <option value="2">Rarely</option>
+                        <option value="3">Sometimes</option>
+                        <option value="4">Often</option>
+                        <option value="5">Always</option>
+                    </select>
+                </div>
+            </section>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mental Health Questionnaire</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
